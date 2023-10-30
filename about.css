@@ -1,0 +1,207 @@
+body{
+ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ margin: 0;
+}
+.container{
+  background-color:whitesmoke;
+}
+.navbar{
+  width: 100%;
+  height: fit-content;
+  /* background-color: #18134d; */
+  
+}
+.header{
+  /* background: url("codioful-formerly-gradienta-n2XqPm7Bqhk-unsplash.jpg"); */
+  display: flex;
+  background-color: #007A6D;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+.left{
+  float: left;
+}
+/* .right{
+ float: right;
+}  */
+
+.left ul{
+  display: flex;
+  justify-content: right;
+  list-style: none;
+}
+.left ul li{
+  margin: 12px;
+  font-size: 21px;
+}
+.left ul li a{
+  text-decoration: none;
+  color: white;
+}
+.left ul li a:hover{
+  color: rgb(189,145,41);
+}
+.main{
+  padding: 5%;
+  padding-top: 2%;
+  
+}
+.main p{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.main h3{
+  font-style: italic;
+
+}
+.main h2{
+  font-style: Gill Sans ,sans-serif;
+} 
+.main li{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer1{
+  /* background-color: #00273c; */
+  background:linear-gradient(to right, #00093c, #2d0b00);
+  height:220px ;
+  color: #94abae;
+  text-align: center;
+  font-size: 35px;
+  }
+  .footer2{
+  background-color: #041721ee;
+  height: 490px;
+  /* display: flex !important; */
+  }
+  .a{
+  background-color: #a19e9e;
+  height: 450px;
+  /* margin-top: 2px; */
+  }
+  .footer1 p{
+  padding-top: 80px;
+  font-family: cursive;
+  }
+  /* .footer2 img{
+  width: 400px;
+  padding-top: 90px;
+  padding-left: 50px;
+  } */
+  .footer2 #footerlogo{
+    padding-top: 120px;
+  padding-left: 90px;
+  font-size: 50px;
+  }
+  .footer2 #slogan{
+  color: azure;
+  padding-left: 90px;
+  font-size: 20px;
+  /* padding-top: 110px; */
+  }
+  .footer2 #suscribeline{
+  font-size: 15px;
+  color: azure; 
+  padding-left: 550px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  transform: translate(0,-60%);
+  }
+  .footer2 #input{
+  width: 300px;
+  height: 40px;
+  background-color: transparent;
+  border:1px solid rgb(178, 178, 178);
+  transform: translate(183%);
+  color: aliceblue;
+  }
+  .footer2 #button{
+  background-color: red;
+  width: 140px;
+  height: 43px;
+  transform: translate(395%);
+  color: aliceblue;
+  }
+  .footer2 #follow{
+  color: aliceblue;
+  padding-left: 1150px;
+  transform: translate(0,-170%);
+  /* padding-bottom: 50px; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .footer2 .fa{
+  /* color: aliceblue; */
+  padding: 8px;
+  font-size: 20px;
+  padding-top: 10px;
+  /* padding-left: 20px;
+  }
+  .socialicons{
+  /* padding-left: 695px; */
+  /*transform: translate(0,-530%);  */
+  /* position: relative; */
+  /* top: -30px; */
+  
+  }
+  .footer2 #reachus{
+  color: aliceblue;
+  padding-left: 1350px;
+  transform: translate(0,-810%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .footer2 #emailid{
+  color: aliceblue;
+  padding-left: 1350px;
+  transform: translate(0,-760%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .footer2 hr{
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #a5a5a5b1;
+  margin: 20px auto;
+  }
+  .footer2 #copyright{
+  text-align: center;
+  color: aliceblue;
+  }
+  /* *{
+    padding: 0;
+    margin: 0;
+  } */
+  .hua *{
+    padding: 0;
+    margin: 0;
+  }
+  .right{
+    float: right;
+    margin: 12px;
+     font-size: 30px;
+   } 
+   /* .right img{
+     height: 60px;
+     width: 200px;
+     margin: 1px 15px 2px 0px;
+   } */
+    #mharo{
+   color: #dedede;
+   }
+    #college{
+   color:#ef233c;
+   }
+   .right{
+    float: right;
+    margin-top: 0;
+     font-size: 30px;
+   } 
+   /* .right img{
+     height: 60px;
+     width: 200px;
+     margin: 1px 15px 2px 0px;
+   } */
+    #mharo{
+   color: #dedede;
+   }
+    #college{
+   color: #ef233c;
+   }

@@ -1,0 +1,616 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+
+body {
+    font-family: "Lato", sans-serif;
+    margin:0;
+    
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  .navbar{
+    width: 100%;
+    height: fit-content;
+    /* background-color: #18134d; */
+    
+}
+.header{
+     /* background: url("codioful-formerly-gradienta-n2XqPm7Bqhk-unsplash.jpg"); */
+     
+     background-color: #007A6D;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+.left{
+    float: left;
+}
+.right{
+   float: right;
+} 
+.right img{
+    height: 60px;
+    width: 200px;
+    margin: 1px 15px 2px 0px;
+}
+.left ul{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+.left ul li{
+  margin: 12px;
+  font-size: 21px;
+}
+.left ul li a{
+  text-decoration: none;
+  color: white;
+}
+.left ul li a:hover{
+  color: rgb(189,145,41);
+}
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-style: italic;
+    background-color:whitesmoke;
+  }
+   
+   .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  } 
+  
+   .sidenav a:hover {
+     color: salmon; 
+   } 
+   
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  #logo{
+    display: flex;
+    /* padding-top:10px ; */
+    height: 80px;
+  }
+ .logo a{
+     /* display: flex;  */
+   
+    /* background-color: darkslategrey; */
+    padding-bottom: 2%;
+    
+
+ }
+ 
+ #collegelogo{
+    display: block;
+  margin-left: 41.5%;
+  margin-right: auto;
+  
+  border: antiquewhite double 8px;
+  /* background-color: darkgreen; */
+ }
+ 
+ 
+#MC{
+    margin-left: 30%;
+    
+   
+ }
+ 
+ 
+
+ 
+ .glowing ul {
+  /* padding-left: 5%; */
+ 
+  /* margin-top: 5%; */
+
+  display: flex;
+  align-items: center;
+  /* position: relative; */
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+  padding-bottom: 4%;
+  /* top: 60%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+
+flex-wrap: wrap;
+
+}
+
+.glowing li {
+  list-style: none;
+  margin: 0 15px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.glowing li a {
+  position: relative; 
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 63px;
+  background: #333;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #666;
+  transition: .5s;
+  text-decoration:double;
+ 
+
+}
+
+.glowing li a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #ffee10;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+.glowing li a:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ffee10;
+}
+
+.glowing li a:hover {
+  color: #ffee10;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+}
+.glowing li a span{
+  text-align: center;
+  font-size: large;
+  color:wheat;
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table {
+  border: 1px solid #050101;
+  text-align: left;
+  padding: 8px;
+}
+
+#trtable:nth-child(even) {
+  background-color: #dddddd;
+}
+#overview{
+  font-weight: lighter;
+  align-items: center;
+  
+ 
+}
+#connectivity{
+  font-weight: lighter;
+  align-items: center;
+ 
+}
+#matrix{
+  font-weight: lighter;
+  align-items: center;
+ 
+}
+#jee{
+  display: flex;
+  background-color: white;
+   border-radius:0 ;
+}
+body {
+  font-family: Arial, sans-serif;
+  
+  margin: 0;
+ 
+}
+
+.connectivity {
+  /* max-width: 800px; */
+  /* margin: 0 auto; */
+  /* padding: 20px; */
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+
+.connectivity table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.connectivity table th, table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.connectivity table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.connectivity table tr:nth-child {
+  background-color: #f2f2f2;
+}
+
+.connectivity table tr:hover {
+  background-color: #ddd;
+}
+.mode{
+  background-color: #fff;
+}
+.connectivity table th {
+  text-align: center;
+}
+.institutefee {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.institutefee  td, .institutefee  th {
+  /* border: 1px solid #ddd; */
+  padding: 3px;
+  border: 0.4px solid rgb(227, 226, 226);
+  border-collapse: collapse;
+}
+
+.institutefee tr:nth-child(even){background-color: #f4f4f4;}
+
+.institutefee  th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  /* background-color: hsla(0, 70%, 41%, 0.587); */
+  color: rgba(15, 2, 2, 0.792);
+}
+.institutefee table{
+    border-collapse: collapse;
+}
+.institutefee {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.institutefee  td, .institutefee  th {
+  /* border: 1px solid #ddd; */
+  padding: 3px;
+  border: 0.4px solid rgb(227, 226, 226);
+  border-collapse: collapse;
+}
+
+.institutefee tr:nth-child(even){background-color: #f4f4f4;}
+
+/* .institutefee  tr:hover {background-color: #ddd;} */
+
+.institutefee  th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  /* background-color: hsla(0, 70%, 41%, 0.587); */
+  color: rgba(15, 2, 2, 0.792);
+}
+.institutefee table{
+    border-collapse: collapse;
+}
+#domainSelector {
+  align-content: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin-left: 35%;
+  font-size: 20px;
+  font-weight:lighter ;
+  width: 35%;
+  border-radius: 6px;
+  border-color: antiquewhite;
+  
+}
+
+#courses {
+  margin-top: 20px;
+  font-size: 18px;
+  padding-left: 30px;
+}
+.offered option{
+  padding-left: 50px;
+}
+
+#placement_Graph{
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+#website{
+  border-radius: 5px;
+  border: 5px solid grey;
+  /* padding:20px; */
+  margin-top:300px;
+  padding-left: 30px;
+  padding-right: 30px;}
+  
+#info{
+  font-family: Garamond, serif;
+  font-size: larger;
+}
+#note{
+
+  font-size: large;
+  font-weight: 100;
+}
+.note h1{
+  font-family: 'Libre Baskerville', serif;
+  color: midnightblue;
+  text-decoration-line: underline;
+}
+.featuredcolleges{
+  font-weight: 400;
+  font-size: 30px;
+  color: rgb(79, 1, 53);
+  line-height: 37.5px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto auto 30px;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  /* margin-top:550px; */
+}
+.center-line{
+  display: inline-block;
+  width: 120px;
+  /* height: 1px; */
+  margin-left: 25%;
+  border-top: 2px solid #cb2027;
+  margin-bottom: 40px;
+}
+.slider-container {
+  overflow: hidden;
+  width: 100%;
+  max-width: 87%; /* Adjust the width as needed */
+  margin: 0 auto;
+  position: relative;
+  /* background-color: #a19e9e;  */
+   padding-bottom: 20px;  
+   padding-top: 20px;  
+   padding-left: 10vw;  
+   /* padding-right: 30%;  */
+}
+
+/* Styles for the slider */
+.slider {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  margin: 2px;
+}
+.slide {
+  /* flex: 0 0 auto; 
+   width: 33.33%;  */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Optional: Add styles for navigation buttons */
+
+.prev-btn{
+  border:2px solid black;
+  font-weight: 1000;
+  padding: 10px 20px;
+
+}
+.prev-btn:hover{
+  color: goldenrod;
+}
+.next-btn:hover{
+  color: goldenrod;
+}
+
+
+.next-btn {
+  border:2px solid black;
+  font-weight: 1000;
+  /* margin-left: 93%; */
+  float:right;
+  
+  padding: 10px 20px;
+}
+.collegeList{
+  background-color: rgb(250, 245, 245);
+  padding:0px;
+  margin: 20px;
+  width: 400px;
+  border: 0.5px solid rgba(35, 35, 36, 0.449);
+  box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.218);
+}
+.collegeList .info{
+  color: rgb(74, 71, 71);
+  font-size: 20px ;
+  /* border: 0.5px solid rgba(35, 35, 36, 0.216); */
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.218);
+  padding: 20px;
+  margin-top: 0;
+  width: 350 px;
+  /* height: 200px ; */
+  
+}
+.collegeList img{
+  width: 400px;
+  height: 200px;
+
+}
+.footer1{
+  /* background-color: #00273c; */
+  background:linear-gradient(to right, #00093c, #2d0b00);
+  height:220px ;
+  color: #94abae;
+  text-align: center;
+  font-size: 35px;
+  }
+  .footer2{
+  background-color: #041721ee;
+  height: 490px;
+  /* display: flex !important; */
+  }
+  .a{
+  background-color: #a19e9e;
+  height: 450px;
+  /* margin-top: 2px; */
+  }
+  .footer1 p{
+  padding-top: 80px;
+  font-family: cursive;
+  }
+  /* .footer2 img{
+  width: 400px;
+  padding-top: 90px;
+  padding-left: 50px;
+  } */
+  .footer2 #footerlogo{
+    padding-top: 120px;
+  padding-left: 90px;
+  font-size: 50px;
+  }
+  .footer2 #slogan{
+  color: azure;
+  padding-left: 90px;
+  font-size: 20px;
+  /* padding-top: 110px; */
+  }
+  .footer2 #suscribeline{
+  font-size: 15px;
+  color: azure; 
+  padding-left: 550px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  transform: translate(0,-60%);
+  }
+  .footer2 #input{
+  width: 300px;
+  height: 40px;
+  background-color: transparent;
+  border:1px solid rgb(178, 178, 178);
+  transform: translate(183%);
+  color: aliceblue;
+  }
+  .footer2 #button{
+  background-color: red;
+  width: 140px;
+  height: 43px;
+  transform: translate(395%);
+  color: aliceblue;
+  }
+  .footer2 #follow{
+  color: aliceblue;
+  padding-left: 1150px;
+  transform: translate(0,-170%);
+  /* padding-bottom: 50px; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .footer2 .fa{
+  /* color: aliceblue; */
+  padding: 8px;
+  font-size: 20px;
+  padding-top: 10px;
+  /* padding-left: 20px;
+  }
+  .socialicons{
+  /* padding-left: 695px; */
+  /*transform: translate(0,-530%);  */
+  /* position: relative; */
+  /* top: -30px; */
+  
+  }
+  .footer2 #reachus{
+  color: aliceblue;
+  padding-left: 1350px;
+  transform: translate(0,-810%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .footer2 #emailid{
+  color: aliceblue;
+  padding-left: 1350px;
+  transform: translate(0,-760%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .footer2 hr{
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #a5a5a5b1;
+  margin: 20px auto;
+  }
+  .footer2 #copyright{
+  text-align: center;
+  color: aliceblue;
+  }
+  /* *{
+    padding: 0;
+    margin: 0;
+  } */
+  .hua *{
+    padding: 0;
+    margin: 0;
+  }
+  .right{
+    float: right;
+    /* /margin: 12px; */
+    margin-right: 1%;
+     font-size: 30px;
+   } 
+   /* .right img{
+     height: 60px;
+     width: 200px;
+     margin: 1px 15px 2px 0px;
+   } */
+    #mharo{
+   color: #dedede;
+   }
+    #college{
+   color:#ef233c;
+   }
+   .slider a {
+color: grey;
+text-decoration: none;
+   }
